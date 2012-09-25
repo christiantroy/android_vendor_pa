@@ -28,3 +28,4 @@ add_lunch_combo pa_evita-userdebug
 add_lunch_combo pa_p3113-userdebug
 add_lunch_combo pa_p3110-userdebug
 add_lunch_combo pa_p3100-userdebug
+add_lunch_combo pa_elf2-userdebug
