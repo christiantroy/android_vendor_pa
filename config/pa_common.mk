@@ -56,7 +56,7 @@ CM_BUILD := $(BOARD)
 
 PA_VERSION_MAJOR = 2
 PA_VERSION_MINOR = 1
-PA_VERSION_MAINTENANCE = 6
+PA_VERSION_MAINTENANCE = 8
 
 TARGET_CUSTOM_RELEASETOOL := vendor/pa/tools/squisher
 
@@ -69,6 +69,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_PROPERTY_OVERRIDES += \
   ro.goo.developerid=paranoidandroid \
-  ro.goo.board=$(BOARD) \
-  ro.goo.rom=$(TARGET_PRODUCT) \
+  ro.goo.rom=paranoidandroid \
   ro.goo.version=$(shell date +%s)
