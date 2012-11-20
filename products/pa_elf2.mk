@@ -14,4 +14,7 @@ PRODUCT_NAME := pa_elf2
 
 #GET_VENDOR_PROPS := $(shell vendor/pa/tools/getvendorprops.py $(PRODUCT_NAME))
 
+PRODUCT_COPY_FILES += \
+    vendor/pa/prebuilt/common/apk/ParanoidPreferences.apk:system/app/ParanoidPreferences.apk
+
 endif
